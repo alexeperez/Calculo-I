@@ -1,0 +1,72 @@
+\documentclass[12pt,a4paper,oneside]{article}
+\usepackage{amsmath,amsthm,amsfonts,amssymb}
+\usepackage{pst-eucl,pstricks,pstricks-add}
+\usepackage[utf8]{inputenc}
+%\usepackage[latin1]{inputenc}
+\usepackage[spanish,activeacute]{babel}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{titlesec}
+\usepackage{color}
+\usepackage{url}
+\usepackage{float}
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{lmodern}
+\usepackage{setspace}
+%\doublespace %para doble espacio
+\onehalfspace %para espacio y medio
+\newcommand{\code}[1]{\fcolorbox{blue!80}{gray!10}{#1}}
+\parindent=0mm
+
+\begin{document}
+%\SweaveOpts{concordance=TRUE}
+\rule[1mm]{162mm}{0.20mm}
+\begin{minipage}[d]{30mm}
+\begin{center}
+\includegraphics[scale=.30]{figures/logo_epn.png}
+\end{center}
+\end{minipage}
+\begin{minipage}[d]{100mm}
+\begin{center}
+\vspace{0.5cm}
+\textsf{\textbf{\large ESCUELA POLITÉCNICA NACIONAL}}\\
+\textsf{\textbf{\small FACULTAD DE CIENCIAS}}\\
+\textsf{\textbf{\small CÁLCULO EN UNA VARIABLE}}\\
+\textsf{\textbf{\small PRUEBA DE CONOCIMIENTOS BÁSICOS}}\\
+\end{center}
+\end{minipage}
+\begin{minipage}[d]{30mm}
+\begin{center}
+\includegraphics[scale=.30]{figures/logo_fc.png}
+\end{center}
+\end{minipage}\\
+
+\rule[1mm]{162mm}{0.20mm}
+\begin{flushright}
+{\sf \small Fecha entrega: 2015/09/28}
+\end{flushright}
+
+\begin{center}
+\textsf{\textbf{\small EJERCICIOS}}
+\end{center}
+
+
+\begin{enumerate}
+\item[\bf{1.}] Encuentre el dominio y recorrido para $f(x)=\displaystyle \sqrt{\frac{x^2-5x}{x^2-9}}$.
+
+\item[\bf{2.}] Sea $h(x)=(x^2-3x+1)^5-8$, encuentre dos funciones $f$, $g$, 
+diferentes de $h$, tales que $h= f \circ g$.
+
+\item[\bf{3.}] Sea $f(x)=\displaystyle \frac{x}{x^2-4}$ para $-2<x<2$, encuentre $f^{-1}(1/2)$.
+
+\item[\bf{4.}] Reescriba la expresión $\sen^2 \theta \cos^2 \theta$ de tal forma de \textbf{no uilizar} potencias de funciones trigonométricas.\newline
+\emph{Sugerencia: UtiliCe la fórmula del ángulo doble}
+
+\item[\bf{5.}] Resuelva la ecuación $e^{2x}-4 e^{x}+3=0$, 
+
+\end{enumerate}
+
+\end{document}
