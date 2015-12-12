@@ -1,0 +1,93 @@
+\documentclass[12pt,a4paper,oneside]{article}
+\usepackage{amsmath,amsthm,amsfonts,amssymb}
+\usepackage{pst-eucl,pstricks,pstricks-add}
+\usepackage[utf8]{inputenc}
+%\usepackage[latin1]{inputenc}
+\usepackage[spanish,activeacute]{babel}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{titlesec}
+\usepackage{color}
+\usepackage{url}
+\usepackage{float}
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{lmodern}
+\usepackage{setspace}
+%\doublespace %para doble espacio
+\onehalfspace %para espacio y medio
+\newcommand{\code}[1]{\fcolorbox{blue!80}{gray!10}{#1}}
+\parindent=0mm
+
+\begin{document}
+%\SweaveOpts{concordance=TRUE}
+\rule[1mm]{162mm}{0.20mm}
+\begin{minipage}[d]{30mm}
+\begin{center}
+\includegraphics[scale=.30]{figures/logo_epn.png}
+\end{center}
+\end{minipage}
+\begin{minipage}[d]{100mm}
+\begin{center}
+\vspace{0.5cm}
+\textsf{\textbf{\large ESCUELA POLITÉCNICA NACIONAL}}\\
+\textsf{\textbf{\small FACULTAD DE CIENCIAS}}\\
+\textsf{\textbf{\small CÁLCULO EN UNA VARIABLE}}\\
+\textsf{\textbf{\small DEBER 04. TEOREMA DEL VALOR INTERMEDIO.}}\\
+\end{center}
+\end{minipage}
+\begin{minipage}[d]{30mm}
+\begin{center}
+\includegraphics[scale=.30]{figures/logo_fc.png}
+\end{center}
+\end{minipage}\\
+
+\rule[1mm]{162mm}{0.20mm}
+\begin{flushright}
+{\sf \small Fecha entrega: 2015/12/16}
+\end{flushright}
+
+\begin{center}
+\textsf{\textbf{\small EJERCICIOS}}
+\end{center}
+
+\begin{enumerate}
+
+\item[\bf{1.}] Verifique si la función $f$ satisface las hipótesis del teorema de Rolle en el intervalo $I$. De ser así halle los $c \in I$ cuya existencia es garantizada por dicho teorema.
+%\begin{multicols}{2}
+\begin{enumerate}
+\item[\bf{1.1}] $f(x)=\sec x$, considere $I=[0, 2\pi]$
+\item[\bf{1.2}] 
+\begin{equation*}
+        f(x) =\left\{\begin{array}{lll} x^2+3, &\mbox{si}\, -2 \leq x \leq 0,\\
+             	                        8-x^3, &\mbox{si}\,  0< x \leq 1.
+									\end{array}
+					\right.
+\end{equation*}
+considere $I=[-2, 1]$.
+\end{enumerate}
+%\end{multicols}
+
+\item[\bf{2.}] Verifique si la función $f$ satisface las hipótesis del teorema del valor intermedio en el intervalo $I$. De ser así halle los $c \in I$ cuya existencia es garantizada por dicho teorema.
+%\begin{multicols}{2}
+\begin{enumerate}
+\item[\bf{1.1}] $f(x)=x^3-3x^2+2x$, considere $I=[0, 1]$
+\item[\bf{1.2}]
+\begin{equation*}
+        f(x) =\left\{\begin{array}{lll} x^3+2, &\mbox{si}\, -3 \leq x \leq 1,\\
+             	                      2x^2+3x-2, &\mbox{si}\, 1 \leq x \leq 2.
+									\end{array}
+					\right.
+\end{equation*}
+considere $I=[-3, 2]$.
+\end{enumerate}
+%\end{multicols}
+
+
+\end{enumerate}
+
+{\bf IMPORTANTE.} No olvidar adicional al presente deber la consulta sobre el teorema del valor intermedio para derivadas con la demostración respectiva.
+
+\end{document}
